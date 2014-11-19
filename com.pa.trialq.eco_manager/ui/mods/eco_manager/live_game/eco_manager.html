@@ -1,0 +1,51 @@
+<!-- ko if: !model.isSpectator() && !model.showLanding() -->
+<table>
+    <tbody>
+    <tr>
+        <th>Commander</th>
+    </tr>
+    <tr>
+        <td>
+            <div id="eco_manager_com">
+                <!-- leave initialised here, in case it's not initialised in init.js -->
+                 <input type="image" src="../../../main/game/live_game/img/orders_bar/icons_orders_energy_consume.png" onclick="eco_manager_commander_conserve()" />
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <th>Fabbers</th>
+    </tr>
+    <tr>
+        <td>
+            <div id="eco_manager_fab">
+                <!-- leave initialised here, in case it's not initialised in init.js -->
+                <input type="image" src="../../../main/game/live_game/img/orders_bar/icons_orders_energy_consume.png" onclick="eco_manager_global_fabber_conserve()" /> 
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <th>Factories</th>
+    </tr>
+    <tr>
+        <td>
+            <div id="eco_manager_fac">
+                <!-- leave initialised here, in case it's not initialised in init.js -->
+                 <input type="image" src="../../../main/game/live_game/img/orders_bar/icons_orders_energy_consume.png" onclick="eco_manager_global_factory_conserve()" />
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <th>Group 0</th>
+    </tr>
+    <tr>
+        <td>
+            <div id="eco_manager_group0">
+                <!-- leave initialised here, in case it's not initialised in init.js -->
+                 <input type="image" src="../../../main/game/live_game/img/orders_bar/icons_orders_energy_consume.png" onclick="eco_manager_group0_conserve()" />
+            </div>
+        </td>
+    </tr>
+
+    </tbody>
+</table>
+<!-- /ko -->

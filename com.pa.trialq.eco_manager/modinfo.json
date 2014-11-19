@@ -1,0 +1,30 @@
+{
+    "context": "client",
+    "identifier": "com.pa.trialq.eco_manager",
+    "display_name": "Eco Manager",
+    "description": "Adds eco-management buttons to the UI",
+    "author": "trialq",
+    "version": "1.3",
+    "build": "74525",
+    "date": "2014/11/19",
+    "signature": "not yet implemented",
+    "forum": "https://forums.uberent.com/threads/rel-eco-manager-58772.55618/",
+    "icon": "http://pamods.github.io/icons/eco_manager.png",
+    "category": [
+        "in-game",
+        "ui"
+    ],
+    "id": "eco_manager",
+    "priority": 100,
+    "scenes": {
+        "LiveGame_FloatZone": [
+            "coui://ui/mods/eco_manager/eco_manager.js",
+            "coui://ui/mods/eco_manager/live_game/eco_manager.css",
+            "coui://ui/mods/eco_manager/live_game/init.js"
+        ]
+    },
+    "enabled": true,
+    "dependencies": [
+        "com.pa.raevn.rfloatframe"
+    ]
+}
